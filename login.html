@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-c">
+        
+        <div class="form-steps">
+          <form class="form">
+            <div class="logoIcon-c">
+              <img src="./img/icons.png" alt="" />
+            </div>
+            <p class="text-c">Sign up to see photos and videos from your friends.</p>
+            <a id="login-facebook" href="">
+              <img src="./img/images.png" alt=""> 
+              Login with Facebook
+            </a>
+            <p id="OR-line">
+              --------------<span>OR</span>---------------
+            </p>
+            <div class="inpt-c">
+              <input
+              placeholder="Mobile Numer Or Email"
+                id="login-Email"
+                onkeyup="changeInput('label-Email',this)"
+                type="text"
+              />
+            </div>
+            <div class="inpt-c">
+              <input
+              placeholder="Full Name"
+                id="login-FullName"
+                onkeyup="changeInput('label-FullName',this)"
+                type="text"
+              />
+              
+            </div>
+            <div class="inpt-c">
+              <input
+                id="login-username"
+                onkeyup="changeInput('label-username',this)"
+                type="text"
+              />
+              <label id="label-username" for="">Username</label>
+            </div>
+            
+            <div class="inpt-c">
+              <input
+                id="login-pass"
+                onkeyup="changeInput('label-pass',this)"
+                type="password"
+              />
+              <label id="label-pass" for="">password</label>
+              <p class="term1">People who use our service may have uploaded your contact information to Instagram. Learn More</p>
+              <p class="term1">By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .</p>
+            </div>
+            <button disabled="true" id="btn-login">Log in</button>
+            
+            
+            
+          </form>
+          <div class="subForm">
+            <p>Have an account? <a href="">Log in</a></p>
+          </div>
+          <p>Get the app</p>
+          <div class="img-c">
+            <a href="">
+              <img src="./img/app-store.png" alt="">
+            </a>
+            <a href="">
+              <img src="./img/play-market.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <ul>
+          <li>Meta</li>
+          <li>About</li>
+          <li>Blog</li>
+          <li>Jobs</li>
+          <li>Help</li>
+          <li>API</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Top Accaunts</li>
+          <li>Locations</li>
+          <li>Instagram Lite</li>
+          <li>Contact Uploading & Non-Users</li>
+        </ul>
+        <div class="foot-end">
+          <select name="" id="">
+            <option value="">English</option>
+            <option value="">Russian</option>
+            <option value="">Azerbaijani</option>
+            <option value="">Turkish</option>
+          </select>
+          <span> 2023 Instagram from Meta</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script src="login.js"></script>
+</html>
